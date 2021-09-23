@@ -1,0 +1,23 @@
+{
+  "name": "latlngcompute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./wx/index.js",
+    "pm2": "cross-env NODE_ENV=production pm2 start ./start.js -f --name='wxRobot'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cross-env": "^7.0.3",
+    "log4js": "^6.3.0",
+    "ws": "^8.1.0"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "log4js": "^6.3.0"
+  }
+}
